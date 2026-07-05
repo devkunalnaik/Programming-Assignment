@@ -1,0 +1,13 @@
+node_modules
+backend/node_modules
+frontend/node_modules
+npm-debug.log
+Dockerfile*
+.git
+.gitignore
+coverage
+backend/coverage
+frontend/coverage
+dist
+backend/dist
+frontend/dist
