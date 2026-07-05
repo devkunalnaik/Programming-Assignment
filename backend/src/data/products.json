@@ -1,52 +1,2400 @@
 [
-  { "id": 1, "name": "Wireless Noise Cancelling Headphones", "description": "Immersive audio with Bluetooth and long battery life", "category": "Electronics", "price": 199, "tags": ["audio", "wireless", "headphones"] },
-  { "id": 2, "name": "Ergonomic Office Chair", "description": "Comfortable chair for long work sessions", "category": "Furniture", "price": 149, "tags": ["office", "comfort"] },
-  { "id": 3, "name": "USB-C Charging Cable", "description": "Fast charging cable for modern phones", "category": "Electronics", "price": 24, "tags": ["cable", "charging", "usb-c"] },
-  { "id": 4, "name": "Travel Backpack", "description": "Water-resistant bag for everyday travel", "category": "Outdoors", "price": 79, "tags": ["travel", "backpack", "waterproof"] },
-  { "id": 5, "name": "Smart Fitness Watch", "description": "Track workouts and heart rate with a sleek design", "category": "Electronics", "price": 129, "tags": ["fitness", "smart", "watch"] },
-  { "id": 6, "name": "Ceramic Coffee Mug", "description": "Premium mug for morning coffee and tea", "category": "Home", "price": 18, "tags": ["kitchen", "drinkware"] },
-  { "id": 7, "name": "Portable Blender", "description": "Blend smoothies on the go with a rechargeable battery", "category": "Kitchen", "price": 59, "tags": ["blender", "portable", "smoothie"] },
-  { "id": 8, "name": "Rainproof Hiking Jacket", "description": "Lightweight jacket built for wet outdoor adventures", "category": "Outdoors", "price": 95, "tags": ["hiking", "outdoor", "rainproof"] },
-  { "id": 9, "name": "Mechanical Keyboard", "description": "Tactile switches and customizable RGB lighting", "category": "Electronics", "price": 89, "tags": ["keyboard", "gaming", "mechanical"] },
-  { "id": 10, "name": "Linen Throw Blanket", "description": "Soft blanket for cozy evenings and reading", "category": "Home", "price": 43, "tags": ["blanket", "linen", "cozy"] },
-  { "id": 11, "name": "Wireless Earbuds", "description": "Compact earbuds with noise isolation and touch controls", "category": "Electronics", "price": 79, "tags": ["audio", "wireless", "earbuds"] },
-  { "id": 12, "name": "Adjustable Desk Lamp", "description": "Bright lamp with dimmable light and minimalist design", "category": "Home", "price": 37, "tags": ["lamp", "desk", "lighting"] },
-  { "id": 13, "name": "Camping Lantern", "description": "Durable lantern with solar charging for nights outdoors", "category": "Outdoors", "price": 35, "tags": ["camping", "lantern", "solar"] },
-  { "id": 14, "name": "Standing Desk Converter", "description": "Switch from sitting to standing in seconds", "category": "Furniture", "price": 169, "tags": ["desk", "standing", "ergonomic"] },
-  { "id": 15, "name": "Ultra-Light Travel Umbrella", "description": "Compact umbrella for sudden weather changes", "category": "Outdoors", "price": 26, "tags": ["travel", "umbrella", "weather"] },
-  { "id": 16, "name": "Bluetooth Speaker", "description": "Portable speaker with deep bass and waterproof casing", "category": "Electronics", "price": 69, "tags": ["audio", "bluetooth", "speaker"] },
-  { "id": 17, "name": "Scented Candle Set", "description": "Relaxing candles with vanilla and cedar notes", "category": "Home", "price": 22, "tags": ["candle", "aroma", "decor"] },
-  { "id": 18, "name": "Yoga Mat", "description": "Non-slip mat designed for home workouts", "category": "Fitness", "price": 34, "tags": ["yoga", "exercise", "mat"] },
-  { "id": 19, "name": "Smart Thermostat", "description": "Control indoor temperature with voice commands", "category": "Electronics", "price": 149, "tags": ["smart", "home", "thermostat"] },
-  { "id": 20, "name": "Stainless Steel Water Bottle", "description": "Double-wall insulation keeps drinks hot or cold", "category": "Outdoors", "price": 28, "tags": ["bottle", "hydration", "travel"] },
-  { "id": 21, "name": "Graphic Design Tablet", "description": "Pressure sensitive tablet for digital illustration", "category": "Electronics", "price": 259, "tags": ["tablet", "design", "creative"] },
-  { "id": 22, "name": "Bamboo Cutting Board", "description": "Durable board ideal for prep and serving", "category": "Kitchen", "price": 29, "tags": ["kitchen", "cutting", "bamboo"] },
-  { "id": 23, "name": "Massage Pillow", "description": "Supportive pillow for neck relief and relaxation", "category": "Home", "price": 39, "tags": ["massage", "comfort", "relief"] },
-  { "id": 24, "name": "Foldable Storage Box", "description": "Organize seasonal items with this compact box", "category": "Home", "price": 17, "tags": ["storage", "organize", "foldable"] },
-  { "id": 25, "name": "Outdoor Picnic Blanket", "description": "Water-resistant blanket for park and beach days", "category": "Outdoors", "price": 31, "tags": ["picnic", "blanket", "outdoor"] },
-  { "id": 26, "name": "USB Wall Charger", "description": "Fast charging charger with multiple ports", "category": "Electronics", "price": 32, "tags": ["charger", "usb", "power"] },
-  { "id": 27, "name": "Air Purifier", "description": "Quiet purifier for cleaner air in bedrooms", "category": "Home", "price": 99, "tags": ["air", "purifier", "home"] },
-  { "id": 28, "name": "Compact Camera Tripod", "description": "Stable tripod for travel photography", "category": "Electronics", "price": 45, "tags": ["camera", "tripod", "travel"] },
-  { "id": 29, "name": "Wooden Serving Tray", "description": "Elegant tray for breakfast or entertaining", "category": "Home", "price": 24, "tags": ["tray", "wooden", "serving"] },
-  { "id": 30, "name": "Resistance Band Set", "description": "Versatile bands for strength training at home", "category": "Fitness", "price": 21, "tags": ["fitness", "bands", "exercise"] },
-  { "id": 31, "name": "Cordless Drill", "description": "Powerful drill for DIY projects around the house", "category": "Tools", "price": 119, "tags": ["drill", "tools", "diy"] },
-  { "id": 32, "name": "Digital Food Scale", "description": "Accurate scale with a compact countertop design", "category": "Kitchen", "price": 27, "tags": ["kitchen", "scale", "food"] },
-  { "id": 33, "name": "Indoor Herb Garden", "description": "Grow fresh basil and mint on your windowsill", "category": "Home", "price": 41, "tags": ["garden", "herbs", "indoor"] },
-  { "id": 34, "name": "Hiking Poles", "description": "Adjustable poles for easier trekking", "category": "Outdoors", "price": 55, "tags": ["hiking", "trekking", "poles"] },
-  { "id": 35, "name": "Smart Scale", "description": "Measures weight, body fat, and water percentage", "category": "Electronics", "price": 64, "tags": ["health", "smart", "scale"] },
-  { "id": 36, "name": "Non-Stick Fry Pan", "description": "Reliable pan for everyday cooking", "category": "Kitchen", "price": 33, "tags": ["pan", "cooking", "kitchen"] },
-  { "id": 37, "name": "Portable Projector", "description": "Compact projector for movie nights and travel", "category": "Electronics", "price": 199, "tags": ["projector", "media", "portable"] },
-  { "id": 38, "name": "Leather Laptop Sleeve", "description": "Protective sleeve with a slim fitted design", "category": "Electronics", "price": 49, "tags": ["laptop", "sleeve", "protective"] },
-  { "id": 39, "name": "Bath Towel Set", "description": "Soft cotton towels for daily use", "category": "Home", "price": 29, "tags": ["bath", "towels", "cotton"] },
-  { "id": 40, "name": "Glass Food Storage", "description": "Clear containers for meal prep and leftovers", "category": "Kitchen", "price": 38, "tags": ["storage", "food", "containers"] },
-  { "id": 41, "name": "Wireless Mouse", "description": "Responsive mouse with long battery life", "category": "Electronics", "price": 29, "tags": ["wireless", "mouse", "computer"] },
-  { "id": 42, "name": "Foldable Step Stool", "description": "Sturdy stool for reaching shelves and storage", "category": "Home", "price": 25, "tags": ["step", "stool", "home"] },
-  { "id": 43, "name": "Running Shoes", "description": "Breathable shoes for daily runs and walks", "category": "Fitness", "price": 89, "tags": ["running", "shoes", "fitness"] },
-  { "id": 44, "name": "Mini Fridge", "description": "Compact fridge for dorms and office spaces", "category": "Home", "price": 129, "tags": ["fridge", "compact", "appliance"] },
-  { "id": 45, "name": "Travel Toiletry Kit", "description": "Organized kit with zip pouches for essentials", "category": "Outdoors", "price": 24, "tags": ["travel", "toiletry", "kit"] },
-  { "id": 46, "name": "Noise Reducing Ear Plugs", "description": "Comfortable plugs for sleep and travel", "category": "Health", "price": 14, "tags": ["sleep", "earplugs", "travel"] },
-  { "id": 47, "name": "Electric Kettle", "description": "Fast boiling kettle for tea and instant meals", "category": "Kitchen", "price": 39, "tags": ["kettle", "tea", "electric"] },
-  { "id": 48, "name": "Laptop Stand", "description": "Aluminum stand that improves airflow and posture", "category": "Electronics", "price": 54, "tags": ["laptop", "stand", "ergonomic"] },
-  { "id": 49, "name": "Camping Stove", "description": "Compact stove for cooking meals outdoors", "category": "Outdoors", "price": 49, "tags": ["camping", "stove", "outdoor"] },
-  { "id": 50, "name": "Smart Plug", "description": "Turn any appliance into a connected device", "category": "Electronics", "price": 24, "tags": ["smart", "plug", "home"] }
+  {
+    "id": 1,
+    "name": "Wireless Noise Cancelling Headphones",
+    "description": "Immersive audio with Bluetooth and long battery life",
+    "category": "Electronics",
+    "price": 199,
+    "tags": [
+      "audio",
+      "wireless",
+      "headphones"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ergonomic Office Chair",
+    "description": "Comfortable chair for long work sessions",
+    "category": "Furniture",
+    "price": 149,
+    "tags": [
+      "office",
+      "comfort"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "USB-C Charging Cable",
+    "description": "Fast charging cable for modern phones",
+    "category": "Electronics",
+    "price": 24,
+    "tags": [
+      "cable",
+      "charging",
+      "usb-c"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Travel Backpack",
+    "description": "Water-resistant bag for everyday travel",
+    "category": "Outdoors",
+    "price": 79,
+    "tags": [
+      "travel",
+      "backpack",
+      "waterproof"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Smart Fitness Watch",
+    "description": "Track workouts and heart rate with a sleek design",
+    "category": "Electronics",
+    "price": 129,
+    "tags": [
+      "fitness",
+      "smart",
+      "watch"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ceramic Coffee Mug",
+    "description": "Premium mug for morning coffee and tea",
+    "category": "Home",
+    "price": 18,
+    "tags": [
+      "kitchen",
+      "drinkware"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Portable Blender",
+    "description": "Blend smoothies on the go with a rechargeable battery",
+    "category": "Kitchen",
+    "price": 59,
+    "tags": [
+      "blender",
+      "portable",
+      "smoothie"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Rainproof Hiking Jacket",
+    "description": "Lightweight jacket built for wet outdoor adventures",
+    "category": "Outdoors",
+    "price": 95,
+    "tags": [
+      "hiking",
+      "outdoor",
+      "rainproof"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Mechanical Keyboard",
+    "description": "Tactile switches and customizable RGB lighting",
+    "category": "Electronics",
+    "price": 89,
+    "tags": [
+      "keyboard",
+      "gaming",
+      "mechanical"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Linen Throw Blanket",
+    "description": "Soft blanket for cozy evenings and reading",
+    "category": "Home",
+    "price": 43,
+    "tags": [
+      "blanket",
+      "linen",
+      "cozy"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Wireless Earbuds",
+    "description": "Compact earbuds with noise isolation and touch controls",
+    "category": "Electronics",
+    "price": 79,
+    "tags": [
+      "audio",
+      "wireless",
+      "earbuds"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Adjustable Desk Lamp",
+    "description": "Bright lamp with dimmable light and minimalist design",
+    "category": "Home",
+    "price": 37,
+    "tags": [
+      "lamp",
+      "desk",
+      "lighting"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Camping Lantern",
+    "description": "Durable lantern with solar charging for nights outdoors",
+    "category": "Outdoors",
+    "price": 35,
+    "tags": [
+      "camping",
+      "lantern",
+      "solar"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Standing Desk Converter",
+    "description": "Switch from sitting to standing in seconds",
+    "category": "Furniture",
+    "price": 169,
+    "tags": [
+      "desk",
+      "standing",
+      "ergonomic"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Ultra-Light Travel Umbrella",
+    "description": "Compact umbrella for sudden weather changes",
+    "category": "Outdoors",
+    "price": 26,
+    "tags": [
+      "travel",
+      "umbrella",
+      "weather"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with deep bass and waterproof casing",
+    "category": "Electronics",
+    "price": 69,
+    "tags": [
+      "audio",
+      "bluetooth",
+      "speaker"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Scented Candle Set",
+    "description": "Relaxing candles with vanilla and cedar notes",
+    "category": "Home",
+    "price": 22,
+    "tags": [
+      "candle",
+      "aroma",
+      "decor"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Yoga Mat",
+    "description": "Non-slip mat designed for home workouts",
+    "category": "Fitness",
+    "price": 34,
+    "tags": [
+      "yoga",
+      "exercise",
+      "mat"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Smart Thermostat",
+    "description": "Control indoor temperature with voice commands",
+    "category": "Electronics",
+    "price": 149,
+    "tags": [
+      "smart",
+      "home",
+      "thermostat"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Stainless Steel Water Bottle",
+    "description": "Double-wall insulation keeps drinks hot or cold",
+    "category": "Outdoors",
+    "price": 28,
+    "tags": [
+      "bottle",
+      "hydration",
+      "travel"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Graphic Design Tablet",
+    "description": "Pressure sensitive tablet for digital illustration",
+    "category": "Electronics",
+    "price": 259,
+    "tags": [
+      "tablet",
+      "design",
+      "creative"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Bamboo Cutting Board",
+    "description": "Durable board ideal for prep and serving",
+    "category": "Kitchen",
+    "price": 29,
+    "tags": [
+      "kitchen",
+      "cutting",
+      "bamboo"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Massage Pillow",
+    "description": "Supportive pillow for neck relief and relaxation",
+    "category": "Home",
+    "price": 39,
+    "tags": [
+      "massage",
+      "comfort",
+      "relief"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Foldable Storage Box",
+    "description": "Organize seasonal items with this compact box",
+    "category": "Home",
+    "price": 17,
+    "tags": [
+      "storage",
+      "organize",
+      "foldable"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Outdoor Picnic Blanket",
+    "description": "Water-resistant blanket for park and beach days",
+    "category": "Outdoors",
+    "price": 31,
+    "tags": [
+      "picnic",
+      "blanket",
+      "outdoor"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "USB Wall Charger",
+    "description": "Fast charging charger with multiple ports",
+    "category": "Electronics",
+    "price": 32,
+    "tags": [
+      "charger",
+      "usb",
+      "power"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Air Purifier",
+    "description": "Quiet purifier for cleaner air in bedrooms",
+    "category": "Home",
+    "price": 99,
+    "tags": [
+      "air",
+      "purifier",
+      "home"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Compact Camera Tripod",
+    "description": "Stable tripod for travel photography",
+    "category": "Electronics",
+    "price": 45,
+    "tags": [
+      "camera",
+      "tripod",
+      "travel"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Wooden Serving Tray",
+    "description": "Elegant tray for breakfast or entertaining",
+    "category": "Home",
+    "price": 24,
+    "tags": [
+      "tray",
+      "wooden",
+      "serving"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Resistance Band Set",
+    "description": "Versatile bands for strength training at home",
+    "category": "Fitness",
+    "price": 21,
+    "tags": [
+      "fitness",
+      "bands",
+      "exercise"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Cordless Drill",
+    "description": "Powerful drill for DIY projects around the house",
+    "category": "Tools",
+    "price": 119,
+    "tags": [
+      "drill",
+      "tools",
+      "diy"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Digital Food Scale",
+    "description": "Accurate scale with a compact countertop design",
+    "category": "Kitchen",
+    "price": 27,
+    "tags": [
+      "kitchen",
+      "scale",
+      "food"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Indoor Herb Garden",
+    "description": "Grow fresh basil and mint on your windowsill",
+    "category": "Home",
+    "price": 41,
+    "tags": [
+      "garden",
+      "herbs",
+      "indoor"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Hiking Poles",
+    "description": "Adjustable poles for easier trekking",
+    "category": "Outdoors",
+    "price": 55,
+    "tags": [
+      "hiking",
+      "trekking",
+      "poles"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Smart Scale",
+    "description": "Measures weight, body fat, and water percentage",
+    "category": "Electronics",
+    "price": 64,
+    "tags": [
+      "health",
+      "smart",
+      "scale"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Non-Stick Fry Pan",
+    "description": "Reliable pan for everyday cooking",
+    "category": "Kitchen",
+    "price": 33,
+    "tags": [
+      "pan",
+      "cooking",
+      "kitchen"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Portable Projector",
+    "description": "Compact projector for movie nights and travel",
+    "category": "Electronics",
+    "price": 199,
+    "tags": [
+      "projector",
+      "media",
+      "portable"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Leather Laptop Sleeve",
+    "description": "Protective sleeve with a slim fitted design",
+    "category": "Electronics",
+    "price": 49,
+    "tags": [
+      "laptop",
+      "sleeve",
+      "protective"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Bath Towel Set",
+    "description": "Soft cotton towels for daily use",
+    "category": "Home",
+    "price": 29,
+    "tags": [
+      "bath",
+      "towels",
+      "cotton"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Glass Food Storage",
+    "description": "Clear containers for meal prep and leftovers",
+    "category": "Kitchen",
+    "price": 38,
+    "tags": [
+      "storage",
+      "food",
+      "containers"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Wireless Mouse",
+    "description": "Responsive mouse with long battery life",
+    "category": "Electronics",
+    "price": 29,
+    "tags": [
+      "wireless",
+      "mouse",
+      "computer"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Foldable Step Stool",
+    "description": "Sturdy stool for reaching shelves and storage",
+    "category": "Home",
+    "price": 25,
+    "tags": [
+      "step",
+      "stool",
+      "home"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Running Shoes",
+    "description": "Breathable shoes for daily runs and walks",
+    "category": "Fitness",
+    "price": 89,
+    "tags": [
+      "running",
+      "shoes",
+      "fitness"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Mini Fridge",
+    "description": "Compact fridge for dorms and office spaces",
+    "category": "Home",
+    "price": 129,
+    "tags": [
+      "fridge",
+      "compact",
+      "appliance"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Travel Toiletry Kit",
+    "description": "Organized kit with zip pouches for essentials",
+    "category": "Outdoors",
+    "price": 24,
+    "tags": [
+      "travel",
+      "toiletry",
+      "kit"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Noise Reducing Ear Plugs",
+    "description": "Comfortable plugs for sleep and travel",
+    "category": "Health",
+    "price": 14,
+    "tags": [
+      "sleep",
+      "earplugs",
+      "travel"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Electric Kettle",
+    "description": "Fast boiling kettle for tea and instant meals",
+    "category": "Kitchen",
+    "price": 39,
+    "tags": [
+      "kettle",
+      "tea",
+      "electric"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Laptop Stand",
+    "description": "Aluminum stand that improves airflow and posture",
+    "category": "Electronics",
+    "price": 54,
+    "tags": [
+      "laptop",
+      "stand",
+      "ergonomic"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Camping Stove",
+    "description": "Compact stove for cooking meals outdoors",
+    "category": "Outdoors",
+    "price": 49,
+    "tags": [
+      "camping",
+      "stove",
+      "outdoor"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Smart Plug",
+    "description": "Turn any appliance into a connected device",
+    "category": "Electronics",
+    "price": 24,
+    "tags": [
+      "smart",
+      "plug",
+      "home"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Ergonomic Headset",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 207,
+    "tags": [
+      "tools",
+      "headset",
+      "practical"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Smart Lamp",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 242,
+    "tags": [
+      "electronics",
+      "lamp",
+      "practical"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Travel Candle",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 277,
+    "tags": [
+      "home",
+      "candle",
+      "practical"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Weatherproof Cushion",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 232,
+    "tags": [
+      "tools",
+      "cushion",
+      "practical"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Smart Mask",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 267,
+    "tags": [
+      "electronics",
+      "mask",
+      "practical"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Lightweight Planter",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 77,
+    "tags": [
+      "home",
+      "planter",
+      "practical"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Wireless Scrubber",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 112,
+    "tags": [
+      "tools",
+      "scrubber",
+      "practical"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Smart Wallet",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 67,
+    "tags": [
+      "electronics",
+      "wallet",
+      "practical"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Lightweight Flashlight",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 102,
+    "tags": [
+      "home",
+      "flashlight",
+      "practical"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Weatherproof Mat",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 137,
+    "tags": [
+      "tools",
+      "mat",
+      "practical"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Smart Journal",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 172,
+    "tags": [
+      "electronics",
+      "journal",
+      "practical"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Lightweight Tote",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 127,
+    "tags": [
+      "home",
+      "tote",
+      "practical"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Weatherproof Lantern",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 162,
+    "tags": [
+      "tools",
+      "lantern",
+      "practical"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Wireless Racket",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 197,
+    "tags": [
+      "electronics",
+      "racket",
+      "practical"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Lightweight Hub",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 232,
+    "tags": [
+      "home",
+      "hub",
+      "practical"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Weatherproof Speaker",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 187,
+    "tags": [
+      "tools",
+      "speaker",
+      "practical"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Smart Organizer",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 222,
+    "tags": [
+      "electronics",
+      "organizer",
+      "practical"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Ergonomic Pillow",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 257,
+    "tags": [
+      "home",
+      "pillow",
+      "practical"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Weatherproof Mug",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 292,
+    "tags": [
+      "tools",
+      "mug",
+      "practical"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Smart Socks",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 247,
+    "tags": [
+      "electronics",
+      "socks",
+      "practical"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Wireless Mirror",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 57,
+    "tags": [
+      "home",
+      "mirror",
+      "practical"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Weatherproof Roller",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 92,
+    "tags": [
+      "tools",
+      "roller",
+      "practical"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Smart Cleaner",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 127,
+    "tags": [
+      "electronics",
+      "cleaner",
+      "practical"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Lightweight Tripod",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 82,
+    "tags": [
+      "home",
+      "tripod",
+      "practical"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Travel Bottle",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 117,
+    "tags": [
+      "tools",
+      "bottle",
+      "practical"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Smart Gloves",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 152,
+    "tags": [
+      "electronics",
+      "gloves",
+      "practical"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Lightweight Kettle",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 187,
+    "tags": [
+      "home",
+      "kettle",
+      "practical"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Wireless Harness",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 142,
+    "tags": [
+      "tools",
+      "harness",
+      "practical"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Smart Thermos",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 177,
+    "tags": [
+      "electronics",
+      "thermos",
+      "practical"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Lightweight Adapter",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 212,
+    "tags": [
+      "home",
+      "adapter",
+      "practical"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Weatherproof Pad",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 247,
+    "tags": [
+      "tools",
+      "pad",
+      "practical"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Smart Grill",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 202,
+    "tags": [
+      "electronics",
+      "grill",
+      "practical"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Lightweight Tray",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 237,
+    "tags": [
+      "home",
+      "tray",
+      "practical"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Smart Backpack",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 272,
+    "tags": [
+      "tools",
+      "backpack",
+      "practical"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Wireless Rope",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 307,
+    "tags": [
+      "electronics",
+      "rope",
+      "practical"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Travel Broom",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 37,
+    "tags": [
+      "home",
+      "broom",
+      "practical"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Weatherproof Band",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 72,
+    "tags": [
+      "tools",
+      "band",
+      "practical"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Smart Controller",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 107,
+    "tags": [
+      "electronics",
+      "controller",
+      "practical"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Lightweight Camera",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 142,
+    "tags": [
+      "home",
+      "camera",
+      "practical"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "Weatherproof Case",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 97,
+    "tags": [
+      "tools",
+      "case",
+      "practical"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Smart Scale",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 132,
+    "tags": [
+      "electronics",
+      "scale",
+      "practical"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Wireless Tool",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 167,
+    "tags": [
+      "home",
+      "tool",
+      "practical"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Weatherproof Towel",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 202,
+    "tags": [
+      "tools",
+      "towel",
+      "practical"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Smart Clock",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 157,
+    "tags": [
+      "electronics",
+      "clock",
+      "practical"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Lightweight Monitor",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 192,
+    "tags": [
+      "home",
+      "monitor",
+      "practical"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Weatherproof Saddle",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 227,
+    "tags": [
+      "tools",
+      "saddle",
+      "practical"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Travel Lighter",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 262,
+    "tags": [
+      "electronics",
+      "lighter",
+      "practical"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Lightweight Stand",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 217,
+    "tags": [
+      "home",
+      "stand",
+      "practical"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "Wireless Pouch",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 252,
+    "tags": [
+      "tools",
+      "pouch",
+      "practical"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Smart Bowl",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 287,
+    "tags": [
+      "electronics",
+      "bowl",
+      "practical"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Lightweight Seat",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 97,
+    "tags": [
+      "home",
+      "seat",
+      "practical"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Ergonomic Weights",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 52,
+    "tags": [
+      "tools",
+      "weights",
+      "practical"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Smart Dock",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 87,
+    "tags": [
+      "electronics",
+      "dock",
+      "practical"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Lightweight Headset",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 122,
+    "tags": [
+      "home",
+      "headset",
+      "practical"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Weatherproof Lamp",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 157,
+    "tags": [
+      "tools",
+      "lamp",
+      "practical"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Wireless Candle",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 112,
+    "tags": [
+      "electronics",
+      "candle",
+      "practical"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Lightweight Cushion",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 147,
+    "tags": [
+      "home",
+      "cushion",
+      "practical"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Travel Mask",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 182,
+    "tags": [
+      "tools",
+      "mask",
+      "practical"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Smart Planter",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 217,
+    "tags": [
+      "electronics",
+      "planter",
+      "practical"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Smart Scrubber",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 172,
+    "tags": [
+      "home",
+      "scrubber",
+      "practical"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Weatherproof Wallet",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 207,
+    "tags": [
+      "tools",
+      "wallet",
+      "practical"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "Smart Flashlight",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 242,
+    "tags": [
+      "electronics",
+      "flashlight",
+      "practical"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Wireless Mat",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 277,
+    "tags": [
+      "home",
+      "mat",
+      "practical"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Weatherproof Journal",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 232,
+    "tags": [
+      "tools",
+      "journal",
+      "practical"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Smart Tote",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 267,
+    "tags": [
+      "electronics",
+      "tote",
+      "practical"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "Lightweight Lantern",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 77,
+    "tags": [
+      "home",
+      "lantern",
+      "practical"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "Weatherproof Racket",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 112,
+    "tags": [
+      "tools",
+      "racket",
+      "practical"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Smart Hub",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 67,
+    "tags": [
+      "electronics",
+      "hub",
+      "practical"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "Travel Speaker",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 102,
+    "tags": [
+      "home",
+      "speaker",
+      "practical"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "Wireless Organizer",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 137,
+    "tags": [
+      "tools",
+      "organizer",
+      "practical"
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Smart Pillow",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 172,
+    "tags": [
+      "electronics",
+      "pillow",
+      "practical"
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Lightweight Mug",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 127,
+    "tags": [
+      "home",
+      "mug",
+      "practical"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Smart Socks",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 162,
+    "tags": [
+      "tools",
+      "socks",
+      "practical"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "Smart Mirror",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 197,
+    "tags": [
+      "electronics",
+      "mirror",
+      "practical"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Lightweight Roller",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 232,
+    "tags": [
+      "home",
+      "roller",
+      "practical"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Weatherproof Cleaner",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 187,
+    "tags": [
+      "tools",
+      "cleaner",
+      "practical"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Wireless Tripod",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 222,
+    "tags": [
+      "electronics",
+      "tripod",
+      "practical"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "Lightweight Bottle",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 257,
+    "tags": [
+      "home",
+      "bottle",
+      "practical"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "Weatherproof Gloves",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 292,
+    "tags": [
+      "tools",
+      "gloves",
+      "practical"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "Travel Kettle",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 247,
+    "tags": [
+      "electronics",
+      "kettle",
+      "practical"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "Lightweight Harness",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 57,
+    "tags": [
+      "home",
+      "harness",
+      "practical"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Weatherproof Thermos",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 92,
+    "tags": [
+      "tools",
+      "thermos",
+      "practical"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "Smart Adapter",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 127,
+    "tags": [
+      "electronics",
+      "adapter",
+      "practical"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Wireless Pad",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 82,
+    "tags": [
+      "home",
+      "pad",
+      "practical"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "Weatherproof Grill",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 117,
+    "tags": [
+      "tools",
+      "grill",
+      "practical"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "Smart Tray",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 152,
+    "tags": [
+      "electronics",
+      "tray",
+      "practical"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "Lightweight Backpack",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 187,
+    "tags": [
+      "home",
+      "backpack",
+      "practical"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Weatherproof Rope",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 142,
+    "tags": [
+      "tools",
+      "rope",
+      "practical"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Smart Broom",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 177,
+    "tags": [
+      "electronics",
+      "broom",
+      "practical"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "Lightweight Band",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 212,
+    "tags": [
+      "home",
+      "band",
+      "practical"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Wireless Controller",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 247,
+    "tags": [
+      "tools",
+      "controller",
+      "practical"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Smart Camera",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 202,
+    "tags": [
+      "electronics",
+      "camera",
+      "practical"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Lightweight Case",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 237,
+    "tags": [
+      "home",
+      "case",
+      "practical"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Weatherproof Scale",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 272,
+    "tags": [
+      "tools",
+      "scale",
+      "practical"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "Smart Tool",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 307,
+    "tags": [
+      "electronics",
+      "tool",
+      "practical"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "Lightweight Towel",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 37,
+    "tags": [
+      "home",
+      "towel",
+      "practical"
+    ]
+  },
+  {
+    "id": 243,
+    "name": "Weatherproof Clock",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 72,
+    "tags": [
+      "tools",
+      "clock",
+      "practical"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "Wireless Monitor",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 107,
+    "tags": [
+      "electronics",
+      "monitor",
+      "practical"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Smart Saddle",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 142,
+    "tags": [
+      "home",
+      "saddle",
+      "practical"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "Weatherproof Lighter",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 97,
+    "tags": [
+      "tools",
+      "lighter",
+      "practical"
+    ]
+  },
+  {
+    "id": 251,
+    "name": "Smart Stand",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 132,
+    "tags": [
+      "electronics",
+      "stand",
+      "practical"
+    ]
+  },
+  {
+    "id": 253,
+    "name": "Travel Pouch",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 167,
+    "tags": [
+      "home",
+      "pouch",
+      "practical"
+    ]
+  },
+  {
+    "id": 255,
+    "name": "Ergonomic Bowl",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 202,
+    "tags": [
+      "tools",
+      "bowl",
+      "practical"
+    ]
+  },
+  {
+    "id": 257,
+    "name": "Smart Seat",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 157,
+    "tags": [
+      "electronics",
+      "seat",
+      "practical"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "Wireless Weights",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 192,
+    "tags": [
+      "home",
+      "weights",
+      "practical"
+    ]
+  },
+  {
+    "id": 261,
+    "name": "Weatherproof Dock",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 227,
+    "tags": [
+      "tools",
+      "dock",
+      "practical"
+    ]
+  },
+  {
+    "id": 263,
+    "name": "Smart Headset",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 262,
+    "tags": [
+      "electronics",
+      "headset",
+      "practical"
+    ]
+  },
+  {
+    "id": 265,
+    "name": "Lightweight Lamp",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 217,
+    "tags": [
+      "home",
+      "lamp",
+      "practical"
+    ]
+  },
+  {
+    "id": 267,
+    "name": "Weatherproof Candle",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 252,
+    "tags": [
+      "tools",
+      "candle",
+      "practical"
+    ]
+  },
+  {
+    "id": 269,
+    "name": "Smart Cushion",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 287,
+    "tags": [
+      "electronics",
+      "cushion",
+      "practical"
+    ]
+  },
+  {
+    "id": 271,
+    "name": "Lightweight Mask",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 97,
+    "tags": [
+      "home",
+      "mask",
+      "practical"
+    ]
+  },
+  {
+    "id": 273,
+    "name": "Wireless Planter",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 52,
+    "tags": [
+      "tools",
+      "planter",
+      "practical"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "Travel Scrubber",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 87,
+    "tags": [
+      "electronics",
+      "scrubber",
+      "practical"
+    ]
+  },
+  {
+    "id": 277,
+    "name": "Lightweight Wallet",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 122,
+    "tags": [
+      "home",
+      "wallet",
+      "practical"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "Weatherproof Flashlight",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 157,
+    "tags": [
+      "tools",
+      "flashlight",
+      "practical"
+    ]
+  },
+  {
+    "id": 281,
+    "name": "Smart Mat",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 112,
+    "tags": [
+      "electronics",
+      "mat",
+      "practical"
+    ]
+  },
+  {
+    "id": 283,
+    "name": "Lightweight Journal",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 147,
+    "tags": [
+      "home",
+      "journal",
+      "practical"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "Weatherproof Tote",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 182,
+    "tags": [
+      "tools",
+      "tote",
+      "practical"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "Wireless Lantern",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 217,
+    "tags": [
+      "electronics",
+      "lantern",
+      "practical"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "Ergonomic Racket",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 172,
+    "tags": [
+      "home",
+      "racket",
+      "practical"
+    ]
+  },
+  {
+    "id": 291,
+    "name": "Weatherproof Hub",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 207,
+    "tags": [
+      "tools",
+      "hub",
+      "practical"
+    ]
+  },
+  {
+    "id": 293,
+    "name": "Smart Speaker",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 242,
+    "tags": [
+      "electronics",
+      "speaker",
+      "practical"
+    ]
+  },
+  {
+    "id": 295,
+    "name": "Lightweight Organizer",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 277,
+    "tags": [
+      "home",
+      "organizer",
+      "practical"
+    ]
+  },
+  {
+    "id": 297,
+    "name": "Travel Pillow",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 232,
+    "tags": [
+      "tools",
+      "pillow",
+      "practical"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "Smart Mug",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 267,
+    "tags": [
+      "electronics",
+      "mug",
+      "practical"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Wireless Socks",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 77,
+    "tags": [
+      "home",
+      "socks",
+      "practical"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Weatherproof Mirror",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 112,
+    "tags": [
+      "tools",
+      "mirror",
+      "practical"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Smart Roller",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 67,
+    "tags": [
+      "electronics",
+      "roller",
+      "practical"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "Lightweight Cleaner",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 102,
+    "tags": [
+      "home",
+      "cleaner",
+      "practical"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "Weatherproof Tripod",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 137,
+    "tags": [
+      "tools",
+      "tripod",
+      "practical"
+    ]
+  },
+  {
+    "id": 311,
+    "name": "Smart Bottle",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 172,
+    "tags": [
+      "electronics",
+      "bottle",
+      "practical"
+    ]
+  },
+  {
+    "id": 313,
+    "name": "Lightweight Gloves",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 127,
+    "tags": [
+      "home",
+      "gloves",
+      "practical"
+    ]
+  },
+  {
+    "id": 315,
+    "name": "Wireless Kettle",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 162,
+    "tags": [
+      "tools",
+      "kettle",
+      "practical"
+    ]
+  },
+  {
+    "id": 317,
+    "name": "Smart Harness",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 197,
+    "tags": [
+      "electronics",
+      "harness",
+      "practical"
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Travel Thermos",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 232,
+    "tags": [
+      "home",
+      "thermos",
+      "practical"
+    ]
+  },
+  {
+    "id": 321,
+    "name": "Weatherproof Adapter",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Tools",
+    "price": 187,
+    "tags": [
+      "tools",
+      "adapter",
+      "practical"
+    ]
+  },
+  {
+    "id": 323,
+    "name": "Ergonomic Pad",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Electronics",
+    "price": 222,
+    "tags": [
+      "electronics",
+      "pad",
+      "practical"
+    ]
+  },
+  {
+    "id": 325,
+    "name": "Smart Grill",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Home",
+    "price": 257,
+    "tags": [
+      "home",
+      "grill",
+      "practical"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "Weatherproof Tray",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Tools",
+    "price": 292,
+    "tags": [
+      "tools",
+      "tray",
+      "practical"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "Wireless Backpack",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Electronics",
+    "price": 247,
+    "tags": [
+      "electronics",
+      "backpack",
+      "practical"
+    ]
+  },
+  {
+    "id": 331,
+    "name": "Lightweight Rope",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Home",
+    "price": 57,
+    "tags": [
+      "home",
+      "rope",
+      "practical"
+    ]
+  },
+  {
+    "id": 333,
+    "name": "Weatherproof Broom",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Tools",
+    "price": 92,
+    "tags": [
+      "tools",
+      "broom",
+      "practical"
+    ]
+  },
+  {
+    "id": 335,
+    "name": "Smart Band",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Electronics",
+    "price": 127,
+    "tags": [
+      "electronics",
+      "band",
+      "practical"
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Lightweight Controller",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Home",
+    "price": 82,
+    "tags": [
+      "home",
+      "controller",
+      "practical"
+    ]
+  },
+  {
+    "id": 339,
+    "name": "Weatherproof Camera",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Tools",
+    "price": 117,
+    "tags": [
+      "tools",
+      "camera",
+      "practical"
+    ]
+  },
+  {
+    "id": 341,
+    "name": "Travel Case",
+    "description": "Built for comfort, durability, and practical use with dependable quality.",
+    "category": "Electronics",
+    "price": 152,
+    "tags": [
+      "electronics",
+      "case",
+      "practical"
+    ]
+  },
+  {
+    "id": 343,
+    "name": "Wireless Scale",
+    "description": "Offers a balance of style, comfort, and performance with dependable quality.",
+    "category": "Home",
+    "price": 187,
+    "tags": [
+      "home",
+      "scale",
+      "practical"
+    ]
+  },
+  {
+    "id": 345,
+    "name": "Weatherproof Tool",
+    "description": "A reliable choice for work, travel, and daily routines with dependable quality.",
+    "category": "Tools",
+    "price": 142,
+    "tags": [
+      "tools",
+      "tool",
+      "practical"
+    ]
+  },
+  {
+    "id": 347,
+    "name": "Smart Towel",
+    "description": "Designed for everyday convenience and modern homes with dependable quality.",
+    "category": "Electronics",
+    "price": 177,
+    "tags": [
+      "electronics",
+      "towel",
+      "practical"
+    ]
+  },
+  {
+    "id": 349,
+    "name": "Lightweight Clock",
+    "description": "Made to improve organization and streamline your routine with dependable quality.",
+    "category": "Home",
+    "price": 212,
+    "tags": [
+      "home",
+      "clock",
+      "practical"
+    ]
+  }
 ]
