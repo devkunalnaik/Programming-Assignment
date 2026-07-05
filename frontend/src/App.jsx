@@ -62,12 +62,21 @@ function App() {
   }, [debouncedQuery, category, minPrice, maxPrice]);
 
   const totalPages = useMemo(() => Math.max(1, Math.ceil(total / limit)), [total]);
+  const hasActiveFilters = Boolean(query || category || minPrice || maxPrice);
+  const resultsSummary = loading
+    ? 'Searching the catalog…'
+    : products.length === 0
+      ? (hasActiveFilters ? 'No products match your search.' : 'Try a broader search to explore the catalog.')
+      : `Showing ${products.length} of ${total} products`;
 
   return (
     <div className="app-shell">
-      <header>
-        <h1>Product Search</h1>
-        <p>Search across names, descriptions, and tags with smart ranking.</p>
+      <header className="hero">
+        <div className="hero-copy">
+          <span className="eyebrow">Curated catalog</span>
+          <h1>Find the right product faster</h1>
+          <p>Search by name, description, or tags, then refine with category and price filters.</p>
+        </div>
       </header>
 
       <section className="controls">
@@ -89,10 +98,29 @@ function App() {
         <input aria-label="Maximum price" type="number" value={maxPrice} onChange={(e) => setMaxPrice(e.target.value)} placeholder="Max price" />
       </section>
 
+      <div className="results-toolbar">
+        <p>{resultsSummary}</p>
+        <span className={`pill ${hasActiveFilters ? 'pill-active' : ''}`}>
+          {hasActiveFilters ? 'Filtered view' : 'Full catalog'}
+        </span>
+      </div>
+
       {loading ? (
-        <div className="status">Loading products...</div>
+        <div className="status loading-state">
+          <div className="status-icon">⌛</div>
+          <div>
+            <h3>Searching the catalog…</h3>
+            <p>We’re narrowing the best matches for you.</p>
+          </div>
+        </div>
       ) : products.length === 0 ? (
-        <div className="status empty">No products match your search.</div>
+        <div className="status empty-state">
+          <div className="status-icon">✦</div>
+          <div>
+            <h3>No products match your search.</h3>
+            <p>Try a broader term or remove one of the filters to widen the results.</p>
+          </div>
+        </div>
       ) : (
         <>
           <div className="results-grid">

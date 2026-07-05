@@ -43,6 +43,7 @@ describe('App', () => {
     render(<App />);
     const input = screen.getByLabelText(/search products/i);
     await userEvent.type(input, 'wireless');
-    expect(await screen.findByText(/no products match your search/i)).toBeTruthy();
+    expect(await screen.findAllByText(/no products match your search/i)).toHaveLength(2);
+    expect(await screen.findByText(/try a broader term/i)).toBeTruthy();
   });
 });
